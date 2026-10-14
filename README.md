@@ -50,7 +50,6 @@ Cada programa solicita sus datos por consola y muestra los resultados en pantall
 
 ## Convenciones y estilos
 
-- Archivos con la primera letra de cada palabra en mayúscula, sin guiones y todo junto (por ejemplo `Ejercicio1Recursos.py`).
 - Variables en `snake_case`, descriptivas y en minúscula.
 - Constantes en MAYÚSCULAS con guion bajo, declaradas al inicio del archivo; no hay números mágicos en las fórmulas.
 - Indentación de 4 espacios, espacios alrededor de operadores y líneas en blanco entre bloques lógicos.
