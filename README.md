@@ -24,9 +24,9 @@ Programas independientes que simulan la ejecución de la misión con ciclos, con
 | Archivo | Descripción | Estructura de control |
 |---|---|---|
 | `avance2/Ejercicio7Exploracion.py` | Menú repetido de actividades de exploración científica; acumula puntos y cuenta actividades y muestras. | Ciclo while con variable de control, condicional múltiple y anidada |
-| `avance2/Ejercicio8Regreso.py` | Evalúa el regreso de la nave o la supervivencia de la tripulación varada. (En desarrollo) | Condicional doble, ciclo while y condicionales para el menor valor |
+| `avance2/Ejercicio8Regreso.py` | Evalúa el regreso de la nave o, si no hay combustible, calcula la supervivencia de la tripulación varada y su recurso limitante. | Condicional doble, ciclo while y condicionales para el menor valor |
 
-La documentación del ejercicio 7 está en `documentacion/Ejercicio7Exploracion.pdf`.
+La documentación de cada ejercicio está en `documentacion/Ejercicio7Exploracion.pdf` y `documentacion/Ejercicio8Regreso.pdf`.
 
 ## Estructura del repositorio
 ```
@@ -38,10 +38,12 @@ mision-orbita/
 │   ├── Ejercicio3SoporteTripulacion.py
 │   └── Ejercicio4Autorizacion.py
 ├── avance2/
-│   └── Ejercicio7Exploracion.py
+│   ├── Ejercicio7Exploracion.py
+│   └── Ejercicio8Regreso.py
 └── documentacion/
     ├── Avance1.pdf
-    └── Ejercicio7Exploracion.pdf
+    ├── Ejercicio7Exploracion.pdf
+    └── Ejercicio8Regreso.pdf
 ```
 
 ## Cómo ejecutar los programas
@@ -53,6 +55,7 @@ python avance1/Ejercicio2Combustible.py
 python avance1/Ejercicio3SoporteTripulacion.py
 python avance1/Ejercicio4Autorizacion.py
 python avance2/Ejercicio7Exploracion.py
+python avance2/Ejercicio8Regreso.py
 ```
 Cada programa solicita sus datos por consola y muestra los resultados en pantalla.
 
