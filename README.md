@@ -26,7 +26,7 @@ Programas independientes que simulan la ejecución de la misión con ciclos, con
 | `avance2/Ejercicio7Exploracion.py` | Menú repetido de actividades de exploración científica; acumula puntos y cuenta actividades y muestras. | Ciclo while con variable de control, condicional múltiple y anidada |
 | `avance2/Ejercicio8Regreso.py` | Evalúa el regreso de la nave o, si no hay combustible, calcula la supervivencia de la tripulación varada y su recurso limitante. | Condicional doble, ciclo while y condicionales para el menor valor |
 
-La documentación de cada ejercicio está en `documentacion/Ejercicio7Exploracion.pdf` y `documentacion/Ejercicio8Regreso.pdf`.
+El documento completo del avance (portada, tabla de cambios y ejercicios) está en `documentacion/Avance2.pdf`. La documentación de cada ejercicio está en `documentacion/Ejercicio7Exploracion.pdf` y `documentacion/Ejercicio8Regreso.pdf`.
 
 ## Estructura del repositorio
 ```
@@ -42,6 +42,7 @@ mision-orbita/
 │   └── Ejercicio8Regreso.py
 └── documentacion/
     ├── Avance1.pdf
+    ├── Avance2.pdf
     ├── Ejercicio7Exploracion.pdf
     └── Ejercicio8Regreso.pdf
 ```
